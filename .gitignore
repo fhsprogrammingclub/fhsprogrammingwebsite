@@ -2,6 +2,6 @@
 
 *.iml
 
- misc.xml
- modules.xml
- vcs.xml
+misc.xml
+modules.xml
+vcs.xml
