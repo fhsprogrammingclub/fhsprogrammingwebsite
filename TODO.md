@@ -2,7 +2,8 @@
 - Basic info
 - Design
 - UI
+- Submission feature
+- Accounts
 
-# Suggestions
 
 
