@@ -3,33 +3,51 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="main.css">
-    <img src="Assets/FHSProClubLOGO.png"/>
-    <h2> Fremont High School Programming Club </h2>
-    <button> Login</button>
-    <button> Sign Up</button>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            setTimeout(function () {
+                $('.menu').removeClass('hidden')
+            }, 1000);
+        })();
+    </script>
+
 </head>
 
 <body>
-    <div>
-        <button> Home</button>
-        <button> About</button>
-        <button> News</button>
-        <button> Problems</button>
-        <button> Leaderboard</button>
+
+<p id="title"> FHS Programming Club
+</p>
+
+<nav id="nav2">
+    <div class="menu2">
+        <ul class="menu-list">
+            <li><a href="" target="_blank">Login</a></li>
+            <li><a href="" target="_blank">Signup</a></li>
+            <li><a href="" target="_blank">Leader board</a></li>
+            <li><a href="" target="_blank">Problems</a></li>
+        </ul>
     </div>
+</nav>
 
-    <div2>
-        <h3> Welcome to FHS Programming Club's Website </h3>
-        <button> Make an Account </button>
-        <button> Try out our Problem of the Week </button>
-        <button> View Upcoming Events</button>
-    </div2>
+<nav id="nav">
+    <img src="./Assets/FHSProClubLOGO.png" class="homeimage">
+    <!--<div class="menu hidden">-->
+    <div class="menu">
+        <ul class="menu-area">
+            <li><a href="" target="_blank">Problem of the Week</a></li>
+            <li><a href="" target="_blank">Events</a></li>
+            <li><a href="" target="_blank">News</a></li>
+            <li><a href="" target="_blank">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <div3>
-        <h2> News </h2>
+</nav>
 
-    </div3>
 </body>
 
 </html>
