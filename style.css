@@ -2,24 +2,25 @@
 .homeimage {
     position: absolute;
     width: 20%;
-    left: 65%;
+    right: 200px;
+    /*left: 65%;*/
     top: -200%;
 }
 
 .menu2 li:nth-child(1) {
-    margin-left: 16%;
+    margin-left: 19%;
 }
 
 
 .menu li:nth-child(4) {
-    margin-right: 33%;
+    margin-right: 378px;
 }
 
 #title {
 
     position: absolute;
     top: 10%;
-    right: 45%;
+    right: 600px;
     font-size: 50px;
     color: #c17e20;
 
@@ -89,7 +90,7 @@
 }
 
 #nav2 {
-    background: #000000;
+    background: transparent;
     position: absolute;
 
     top: 40%;
@@ -187,7 +188,7 @@
 }
 
 body {
-    background: #000000;
+    background: #ffffff;
 }
 
 /*.menu.hidden {*/
