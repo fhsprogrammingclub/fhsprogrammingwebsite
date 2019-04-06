@@ -1,10 +1,25 @@
 
+.homeimage {
+    position: absolute;
+    width: 20%;
+    left: 65%;
+    top: -200%;
+}
+
+.menu2 li:nth-child(1) {
+    margin-left: 16%;
+}
+
+
+.menu li:nth-child(4) {
+    margin-right: 33%;
+}
 
 #title {
 
     position: absolute;
     top: 10%;
-    left: 25%;
+    right: 45%;
     font-size: 50px;
     color: #c17e20;
 
@@ -46,9 +61,6 @@
     text-align: center;
 }
 
-.menu li:first-child {
-    margin-left: -25%;
-}
 
 .menu-area li a:hover {
     transition: background-color 1s ease-out;
@@ -107,9 +119,6 @@
     transition: fadein 1s;
 }
 
-.menu-list li:first-child {
-    margin-left: 20%;
-}
 
 .menu-list li {
     text-align: center;
@@ -127,12 +136,6 @@
 }
 
 
-.homeimage {
-    position: absolute;
-    width: 20%;
-    left: 65%;
-    top: -200%;
-}
 
 @keyframes fadein {
     from {
