@@ -8,7 +8,7 @@
 
     <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
     <script type="text/javascript">
-        $(function() {
+        $(function () {
             setTimeout(function () {
                 $('.menu').removeClass('hidden')
             }, 1000);
@@ -19,9 +19,24 @@
 
 <body>
 
-<nav>
+<p id="title"> FHS Programming Club
+</p>
+
+<nav id="nav2">
+    <div class="menu2">
+        <ul class="menu-list">
+            <li><a href="" target="_blank">Login</a></li>
+            <li><a href="" target="_blank">Signup</a></li>
+            <li><a href="" target="_blank">Leader board</a></li>
+            <li><a href="" target="_blank">Problems</a></li>
+        </ul>
+    </div>
+</nav>
+
+<nav id="nav">
     <img src="./Assets/FHSProClubLOGO.png" class="homeimage">
-    <div class="menu hidden">
+    <!--<div class="menu hidden">-->
+    <div class="menu">
         <ul class="menu-area">
             <li><a href="" target="_blank">Problem of the Week</a></li>
             <li><a href="" target="_blank">Events</a></li>
@@ -29,6 +44,8 @@
             <li><a href="" target="_blank">Contact</a></li>
         </ul>
     </div>
+</nav>
+
 </nav>
 
 </body>
