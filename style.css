@@ -1,4 +1,18 @@
 
+.spotlight {
+    background: #1d1e1e;
+
+    position: fixed;
+    bottom: 0;
+
+    left: 50%;
+    margin-left: -400px;
+
+    margin-bottom: 40px;
+    width: 800px;
+    height: 300px;
+}
+
 .homeimage {
     position: absolute;
     width: 20%;
