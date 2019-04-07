@@ -21,7 +21,7 @@
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
     -o-animation: fadein 3s; /* Opera < 12.1 */
-    animation: fadein 3s;
+    animation: fadein 2s;
 }
 
 #nav {
@@ -34,7 +34,7 @@
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
     -o-animation: fadein 4s; /* Opera < 12.1 */
-    animation: fadein 4s;
+    animation: fadein 3s;
 }
 
 .menu {
@@ -57,11 +57,6 @@
     font-size: 14px;
     line-height: 30px;
     border-radius: 10px;
-
-    -webkit-transition: fadein 1s;
-    -moz-transition: fadein 1s;
-    -o-transition: fadein 1s;
-    transition: fadein 1s;
 }
 
 .menu li:nth-child(1) {
@@ -107,7 +102,6 @@
 
     -webkit-transition: fadein 1s;
     -moz-transition: fadein 1s;
-    -ms-transition: fadein 1s;
     -o-transition: fadein 1s;
     transition: fadein 1s;
 }
@@ -139,26 +133,47 @@
     width: 77%;
     height: 300px;
 
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+
 }
 
 .spotlighttitle {
     color: #c17e20;
     font-family: Optima;
     font-size: 40px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 5s;
 }
 
 .spotlightdivider {
     background-color: #c17e20;
-}
+    border-color: #c17e20;
 
-.spotlight * {
     -webkit-transition: fadein 1s;
     -moz-transition: fadein 1s;
-    -ms-transition: fadein 1s;
     -o-transition: fadein 1s;
     transition: fadein 1s;
+    animation: fadein 6s;
 }
 
+.spotlightcontent {
+    color: #c17e20;
+    font-family: Optima;
+    font-size: 18px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 7s;
+}
 
 
 
