@@ -1,78 +1,27 @@
 
+/*fhs programming logo*/
 .homeimage {
     position: absolute;
     width: 20%;
-    left: 65%;
-    top: -200%;
+    right: 10%;
+    /*left: 65%;*/
+    top: -250%;
 }
 
-.menu2 li:nth-child(1) {
-    margin-left: 16%;
-}
-
-
-.menu li:nth-child(4) {
-    margin-right: 33%;
-}
-
+/*highlighted orange*/
 #title {
 
     position: absolute;
-    top: 10%;
-    right: 45%;
-    font-size: 50px;
+    top: 12%;
+    left: 13%;
+    font-size: 60px;
     color: #c17e20;
+    font-family: Optima;
 
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
     -o-animation: fadein 3s; /* Opera < 12.1 */
-    animation: fadein 3s;
-}
-
-
-.menu-area li a {
-
-    text-decoration: none;
-    color: #000000;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    display: block;
-    padding: 0 25px;
-    font-size: 14px;
-    line-height: 30px;
-    border-radius: 10px;
-
-    -webkit-transition: fadein 1s;
-    -moz-transition: fadein 1s;
-    -ms-transition: fadein 1s;
-    -o-transition: fadein 1s;
-    transition: fadein 1s;
-}
-
-.menu-area li {
-    text-align: center;
-    display: inline-block;
-    list-style-type: none;
-    transition: all 1s ease;
-}
-
-.menu {
-    background: transparent;
-    text-align: center;
-}
-
-
-.menu-area li a:hover {
-    transition: background-color 1s ease-out;
-    color: #c17e20;
-    background-color: #000000;
-
-}
-
-.menu-list li a:hover {
-    transition: background-color 1s ease-out;
-    background-color: #c17e20;
-    color: #000;
+    animation: fadein 2s;
 }
 
 #nav {
@@ -85,11 +34,46 @@
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
     -o-animation: fadein 4s; /* Opera < 12.1 */
-    animation: fadein 4s;
+    animation: fadein 3s;
 }
 
+.menu {
+    background: transparent;
+}
+
+.menu-area li {
+    display: inline-block;
+    list-style-type: none;
+    transition: all 1s ease;
+}
+
+.menu-area li a {
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.menu li:nth-child(1) {
+    margin-left: 10%;
+}
+
+.menu-area li a:hover {
+    transition: background-color 1s ease-out;
+    color: #c17e20;
+    background-color: #000000;
+}
+
+
+
+/*second navigation bar*/
 #nav2 {
-    background: #000000;
+    background: transparent;
     position: absolute;
 
     top: 40%;
@@ -99,6 +83,10 @@
     -moz-animation: fadein 4s; /* Firefox < 16 */
     -o-animation: fadein 4s; /* Opera < 12.1 */
     animation: fadein 4s;
+}
+
+.menu2 li:nth-child(1) {
+    margin-left: 10%;
 }
 
 .menu2 li a {
@@ -114,11 +102,9 @@
 
     -webkit-transition: fadein 1s;
     -moz-transition: fadein 1s;
-    -ms-transition: fadein 1s;
     -o-transition: fadein 1s;
     transition: fadein 1s;
 }
-
 
 .menu-list li {
     text-align: center;
@@ -127,16 +113,72 @@
     transition: all 1s ease;
 }
 
+.menu-list li a:hover {
+    transition: background-color 1s ease-out;
+    background-color: #c17e20;
+    color: #000;
+}
 
-.menu-area li {
-    text-align: center;
-    display: inline-block;
-    list-style-type: none;
-    transition: all 1s ease;
+
+/*spotlight section of the page*/
+.spotlight {
+    background: transparent;
+
+    position: absolute;
+
+    left: 13%;
+    top: 49%;
+
+    /*dont change the width value*/
+    width: 77%;
+    height: 300px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+
+}
+
+.spotlighttitle {
+    color: #c17e20;
+    font-family: Optima;
+    font-size: 40px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 5s;
+}
+
+.spotlightdivider {
+    background-color: #c17e20;
+    border-color: #c17e20;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 6s;
+}
+
+.spotlightcontent {
+    color: #c17e20;
+    font-family: Optima;
+    font-size: 18px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 7s;
 }
 
 
 
+
+/*transitions*/
 @keyframes fadein {
     from {
         opacity: 0;
