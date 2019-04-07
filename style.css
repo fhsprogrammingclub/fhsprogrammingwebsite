@@ -1,12 +1,22 @@
-/*highlighted orange*/
 
+/*fhs programming logo*/
+.homeimage {
+    position: absolute;
+    width: 20%;
+    right: 10%;
+    /*left: 65%;*/
+    top: -250%;
+}
+
+/*highlighted orange*/
 #title {
 
     position: absolute;
-    top: 13%;
-    left: 14%;
-    font-size: 50px;
+    top: 12%;
+    left: 13%;
+    font-size: 60px;
     color: #c17e20;
+    font-family: Optima;
 
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -116,34 +126,38 @@
 }
 
 
-
-
-
-/*other parts of this page*/
+/*spotlight section of the page*/
 .spotlight {
-    background: #000000;
+    background: transparent;
 
-    position: fixed;
-    bottom: 0;
-
-    left: 50%;
-    margin-left: -400px;
-
-    margin-bottom: 40px;
-    width: 800px;
-    height: 300px;
-}
-
-.homeimage {
     position: absolute;
-    width: 20%;
-    right: 200px;
-    /*left: 65%;*/
-    top: -200%;
+
+    left: 13%;
+    top: 49%;
+
+    /*dont change the width value*/
+    width: 77%;
+    height: 300px;
+
 }
 
+.spotlighttitle {
+    color: #c17e20;
+    font-family: Optima;
+    font-size: 40px;
+}
 
+.spotlightdivider {
+    background-color: #c17e20;
+}
 
+.spotlight * {
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -ms-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+}
 
 
 
