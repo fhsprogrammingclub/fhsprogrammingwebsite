@@ -5,14 +5,14 @@
     width: 20%;
     right: 10%;
     /*left: 65%;*/
-    top: -250%;
+    top: -200%;
 }
 
 /*highlighted orange*/
 #title {
 
     position: absolute;
-    top: 12%;
+    top: 8%;
     left: 13%;
     font-size: 60px;
     color: #c17e20;
