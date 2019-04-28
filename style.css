@@ -15,7 +15,8 @@
     top: 8%;
     left: 13%;
     font-size: 60px;
-    color: #c17e20;
+    /*color: #c17e20;*/
+    color: red;
     font-family: Optima;
 
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
@@ -25,7 +26,8 @@
 }
 
 #nav {
-    background: #c17e20;
+    /*background: #c17e20;*/
+    background: red;
     position: absolute;
 
     top: 30%;
@@ -38,7 +40,7 @@
 }
 
 .menu {
-    background: #c17e20;
+    background: transparent;
 }
 
 .menu-area li {
@@ -65,7 +67,7 @@
 
 .menu-area li a:hover {
     transition: background-color 1s ease-out;
-    color: #c17e20;
+    color: red;
     background-color: #000000;
 }
 
@@ -91,7 +93,7 @@
 
 .menu2 li a {
     text-decoration: none;
-    color: #c17e20;
+    color: red;
     letter-spacing: 2px;
     text-transform: uppercase;
     display: block;
@@ -115,7 +117,7 @@
 
 .menu-list li a:hover {
     transition: background-color 1s ease-out;
-    background-color: #c17e20;
+    background-color: red;
     color: #000;
 }
 
@@ -141,7 +143,7 @@
 }
 
 .spotlighttitle {
-    color: #c17e20;
+    color: red;
     font-family: Optima;
     font-size: 40px;
 
@@ -153,8 +155,8 @@
 }
 
 .spotlightdivider {
-    background-color: #c17e20;
-    border-color: #c17e20;
+    background-color: red;
+    border-color: red;
 
     -webkit-transition: fadein 1s;
     -moz-transition: fadein 1s;
@@ -164,7 +166,7 @@
 }
 
 .spotlightcontent {
-    color: #c17e20;
+    color: red;
     font-family: Optima;
     font-size: 18px;
 
