@@ -141,6 +141,26 @@
 
 }
 
+/*sponsor section of the page*/
+.sponsors {
+    background: transparent;
+
+    position: relative;
+
+    left: 13%;
+    top: 49%;
+
+    /*dont change the width value*/
+    width: 77%;
+    height: 300px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+
+}
+
 .spotlighttitle {
     color: #c17e20;
     font-family: Optima;
