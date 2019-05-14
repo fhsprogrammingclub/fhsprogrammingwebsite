@@ -24,6 +24,20 @@
     animation: fadein 2s;
 }
 
+.copyright {
+    background: #c17e20;
+    text-align: center;
+    color: black;
+
+    top: 30%;
+    width: calc(100%);
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 3s; 
+}
+
 #nav {
     /*background: #c17e20;*/
     background: #c17e20;
@@ -158,7 +172,6 @@
     -moz-transition: fadein 1s;
     -o-transition: fadein 1s;
     transition: fadein 1s;
-
 }
 
 .spotlighttitle {
