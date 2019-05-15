@@ -177,15 +177,12 @@
 }
 
 
-.sponsorTitle {
-    color: #c17e20;
-    background: transparent;
-    font-size: 14px;
+.sponsors {
+    margin-top: 100px;
 }
 
 .sponsors {
-    position: absolute;
-    top: 40%;
+    color: #c17e20;
 }
 
 /*transitions*/
