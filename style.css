@@ -8,6 +8,15 @@
     top: -200%;
 }
 
+/* poster info */
+.posterImage {
+    position: absolute;
+    width: 20%;
+    right: 10%;
+    /*left: 65%;*/
+    top: -200%;
+}
+
 /*highlighted orange*/
 #title {
 
@@ -142,7 +151,7 @@
 .sponsorstitle {
     color: #c17e20;
     font-family: Optima;
-    font-size: 23px;
+    font-size: 40px;
 
     -webkit-transition: fadein 1s;
     -moz-transition: fadein 1s;
