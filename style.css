@@ -208,6 +208,19 @@
     animation: fadein 6s;
 }
 
+.sponsorsdivider {
+    border: 10px dotted #c17e20;
+    border-style: none none dotted;
+    color: #c17e20;
+    background-color: transparent;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 6s;
+}
+
 .spotlightcontent {
     color: #c17e20;
     font-family: Optima;
