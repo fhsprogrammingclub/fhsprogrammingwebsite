@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 
+<script type="text/javascript">
+
+    function disappear() {
+
+        var opacityVal = 1;
+        for (var i = 0; i <= 5; i++) {
+            document.getElementById('ac-wrapper').style.opacity = opacityVal;
+            opacityVal -= 0.2;
+        }
+    }
+
+</script>
+
+
 <html>
 
 <head>
@@ -14,23 +28,17 @@
 <body>
 
 <div id="titlediv">
-<p id="title"> FHS Programming Club
-</p>
+    <p id="title"> FHS Programming Club
+    </p>
 </div>
 
 <nav id="nav2">
     <div class="menu2">
         <ul class="menu-list">
-            <!--
             <li><a href="./login.html" target="">Login</a></li>
             <li><a href="./signup.html" target="">Signup</a></li>
             <li><a href="./leaderboard.html" target="">Leader board</a></li>
             <li><a href="./problems.html" target="">Problems</a></li>
-            -->
-            <li><a href="./index.html" target="">Login</a></li>
-            <li><a href="./index.html" target="">Signup</a></li>
-            <li><a href="./index.html" target="">Leader board</a></li>
-            <li><a href="./index.html" target="">Problems</a></li>
         </ul>
     </div>
 </nav>
@@ -38,49 +46,47 @@
 <nav id="nav">
     <img src="./Assets/FHSProClubLOGO.png" class="homeimage" alt="home image">
     <!--<div class="menu hidden">-->
-
     <div class="menu">
         <ul class="menu-area">
-            <!--
             <li><a href="./potw.html" target="">Problem of the Week</a></li>
             <li><a href="./events.html" target="">Events</a></li>
             <li><a href="./news.html" target="">News</a></li>
-            <li><a href="mailto:firebirdsprogramming@gmail.com?subject=Inquiry" target="_blank">Contact</a></li>
-            -->
-            <li><a href="./index.html" target="">Problem of the Week</a></li>
-            <li><a href="./index.html" target="">Events</a></li>
-            <li><a href="./index.html" target="">News</a></li>
             <li><a href="mailto:firebirdsprogramming@gmail.com?subject=Inquiry" target="_blank">Contact</a></li>
         </ul>
     </div>
 </nav>
 
-
 <div class="spotlight">
     <p class="spotlighttitle">
         Spotlight
     </p>
-
-    <img src="./Assets/fhsInterstPoster.png" class="posterImage" alt="poster image"> 
-
     <hr class="spotlightdivider">
-
     <p class="spotlightcontent">
-        Thanks for checking in! Our website is currently under construction, and should be done by the start of the 2020 school year
+        Thanks for checking in! Our website is currently under construction, and should be done by the start of the 2020
+        school year
     </p>
-
 </div>
 
 <div class="sponsors">
+
     <p class="sponsorstitle">
         A Special Thanks to out Sponsors!
     </p>
-    <hr class="spotlightdivider">
-    
-    <a class="sponsorscontent" href="http://elevationventures.org" target="">Elevation Ventures </a>
-            
+
+    <hr class="sponsorsdivider">
+
+    <p class="sponsorscontent">
+        Elevation Ventures
+    </p>
 
     <br><br><br><br><br><br><br><br>
+</div>
+
+
+<div id="ac-wrapper">
+    <div id="popup">
+        <img src="./Assets/fhsInterestPoster.png" alt="firebirds poster" class="popupimage" onclick="disappear()">
+    </div>
 </div>
 
 </body>
