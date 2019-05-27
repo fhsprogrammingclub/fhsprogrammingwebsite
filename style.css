@@ -173,6 +173,54 @@
     animation: fadein 7s;
 }
 
+.officers {
+    background: transparent;
+
+    position: absolute;
+
+    left: 13%;
+    top: calc(49% + 250px + 200px);
+
+    /*dont change the width value*/
+    width: 77%;
+    height: 200px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+}
+
+.officerstitle {
+    color: #c17e20;
+    font-family: Optima;
+    font-size: 40px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 5s;
+}
+
+/*meetings content*/
+.meetings {
+    background: transparent;
+
+    position: absolute;
+
+    left: 13%;
+    top: calc(49% + 250px);
+
+    /*dont change the width value*/
+    width: 77%;
+    height: 200px;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+}
 
 /*spotlight section of the page*/
 .spotlight {
