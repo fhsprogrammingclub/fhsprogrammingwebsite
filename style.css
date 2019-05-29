@@ -144,7 +144,7 @@
     -moz-transition: fadein 1s;
     -o-transition: fadein 1s;
     transition: fadein 1s;
-    animation: fadein 6s;
+    animation: fadein 4s;
 
 }
 
