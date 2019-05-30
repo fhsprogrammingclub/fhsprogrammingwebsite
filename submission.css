@@ -1,0 +1,42 @@
+#projectsubmissionform {
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    width: 77%;
+}
+
+.text {
+    color: #c17e20;
+    font-family: Optima;
+    font-size: 28px;
+}
+
+.input {
+    background-color: transparent;
+    border-color: #c17e20;
+    border-width: 1px;
+    width: 100%;
+    height: 30px;
+    color: #c17e20;
+    font-size: 20px;
+}
+
+.submitbutton {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: Optima;
+    font-size: 20px;
+    border-color: #c17e20;
+    color: #c17e20;
+    background-color: black;
+    padding: 15px 32px;
+}
+
+.submitbutton:hover {
+    background-color: #c17e20;
+    color: black;
+    -webkit-transition: 300ms linear;
+    border: 1px solid black;
+}
+
