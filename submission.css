@@ -3,6 +3,12 @@
     left: 13%;
     top: 50%;
     width: 77%;
+
+    -webkit-transition: fadein 1s;
+    -moz-transition: fadein 1s;
+    -o-transition: fadein 1s;
+    transition: fadein 1s;
+    animation: fadein 5s;
 }
 
 .text {
