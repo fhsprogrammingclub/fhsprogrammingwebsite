@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<script>
+    function submit() {
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        let correctpassword = getCorrectPassword(username);
+        console.log(correctpassword);
+        // if (password === correctpassword) {
+        //     sendEmail(document.getElementById("nameinput").value, document.getElementById("link").value, document.getElementById("description").value)
+        // } else {
+        //     alert("Incorrect Password!")
+        // }
+
+    }
+    function getCorrectPassword(username) {
+        const fs = require('fs')
+        let filetext;
+        fs.readFile('auth.csv', (err, data) => {
+            if (err) throw err;
+            filetext = data.toString();
+            console.log(filetext)
+        });
+        return filetest;
+    }
+    function sendEmail(name, link, description) {
+
+    }
+</script>
+
 <head>
     <meta charset="UTF-8">
     <title>PROJECT SUBMISSION</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="submission.css">
-
-
 </head>
 <body>
 
@@ -43,22 +70,25 @@
 <div class="container">
     <form id="projectsubmissionform">
         <p class="text"> Name: </p>
-        <input type="text" name="name" value="" class="input">
+        <input type="text" name="name" value="" class="input" id="nameinput">
         <p class="text">FHSProgramming Issued Username: </p>
-        <input type="text" name="username" value="" class="input">
+        <input type="text" name="username" value="" class="input" id="username">
         <p class="text">FHSProgramming Issued Password: </p>
-        <input type="password" name="password" value="" class="input">
+        <input type="password" name="password" value="" class="input" id="password">
         <p class="text">Project Link:</p>
-        <input type="text" name="url" value="" class="input">
+        <input type="text" name="url" value="" class="input" id="link">
         <p class="text">Project Description</p>
-        <input type="text" name="description" value="" class="input"> <br><br><br>
-        <input type="submit" value="SUBMIT" class="submitbutton">
+        <input type="text" name="description" value="" class="input" id="description"> <br><br><br>
+        <input type="submit" value="SUBMIT" class="submitbutton" id="projectsubmitbutton" onclick="submit()">
         <p>
             <br><br><br><br><br><br><br><br><br><br><br><br>
         </p>
     </form>
 </div>
 </body>
+
+<p id="demo"></p>
+
 </html>
 
 <script src="./removeBanner.js"></script>
